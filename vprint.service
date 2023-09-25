@@ -7,11 +7,21 @@
     <port>631</port>
     <txt-record>txtvers=1</txt-record>
     <txt-record>qtotal=1</txt-record>
-    <txt-record>Transparent=T</txt-record>
-    <txt-record>URF=DM3</txt-record>
-    <txt-record>pdl=image/urf</txt-record>
-    <txt-record>rp=printers/Paperless_Printer</txt-record>
     <txt-record>note=Virtual Paperless Printer</txt-record>
+    <txt-record>pdl=application/pdf,application/postscript,image/urf</txt-record>
+    <txt-record>rp=printers/Paperless_Printer</txt-record>
+    <txt-record>Bind=F</txt-record>
+    <txt-record>Collate=F</txt-record>
+    <txt-record>Color=T</txt-record>
+    <txt-record>Copies=F</txt-record>
+    <txt-record>Duplex=F</txt-record>
+    <txt-record>PaperCustom=F</txt-record>
+    <txt-record>PaperMax=legal-A4</txt-record>
+    <txt-record>Punch=0</txt-record>
+    <txt-record>Scan=F</txt-record>
+    <txt-record>Sort=F</txt-record>
+    <txt-record>Staple=F</txt-record>
+    <txt-record>URF=W8,SRGB24,CP255,RS600,DM1</txt-record>
     <txt-record>product=(Generic PostScript Printer)</txt-record>
     <txt-record>ty=Generic PostScript Printer</txt-record>
     <txt-record>printer-state=3</txt-record>
